@@ -1,0 +1,297 @@
+/* normalize stuff that I know off the top of the dome */
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #00FF00;
+	height: 100%;
+}
+nav {
+	width: 100%;
+	height: 60px;
+	background-color:white;
+}
+
+nav ul {
+	width: 100%;
+}
+nav ul li {
+	display: inline-block;
+}
+nav li {
+	color: #826A21;
+	font-size: 1em;
+	font-family: Verdana;
+	margin-top: 20px;
+	text-align: left;
+	font-weight: bolder;
+	margin-left: 20px;
+
+}
+
+.linkin {
+	color: #826A21;
+	font-size: 1em;
+	font-family: Verdana;
+	margin-top: 20px;
+	text-align: left;
+	font-weight: bolder;
+	margin-left: 20px;
+}
+
+.nightLink {
+	color: white;
+	font-size: 1em;
+	font-family: Verdana;
+	margin-top: 20px;
+	text-align: left;
+	font-weight: bolder;
+	margin-left: 20px;
+}
+
+button {
+	width: 50px;
+	background-color: white;
+
+}
+.dayButton{
+
+	border: none;
+	color: #00ffff;
+	font-weight: bolder;
+		text-align: right;
+}
+.nightButton {
+background-color: black;
+	border: none;
+	color: #ffff4d;
+	font-weight: bolder;
+		text-align: left;
+
+}
+
+footer ul li {
+	display: inline-block;
+}
+footer li {
+	width:10%;
+	color: white;
+	font-size: 1em;
+	font-family: Verdana;
+	margin-top: 20px;
+	text-align: left;
+	font-weight: bolder;
+}
+footer {
+	margin-left: 18%;
+}
+li {
+	list-style: none;
+}
+/* Link Styling, yeeeahhh */
+a:link { color: #FF0000; }
+a:visited { color: #826A21; }
+a:hover { color: #FF00FF; }
+a:active { color: #0000FF; }
+/* custom styling */
+.header {
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-top: 1%;
+	font-family: sans-serif;
+	font-weight: bolder;
+	color: #826A21;
+}
+.mainBg p {
+	margin-left: 20%;
+	margin-right: 20%;
+	line-height: 1.6em;
+	font-family: sans-serif;
+	font-weight: lighter;
+	font-size: 1.5em;
+}
+.mainBg {
+	height: 2000px;
+	width: 98%;
+	margin: 1%;
+	background-color: white;
+}
+.mainBg .selfie {
+	height: 20%;
+	margin-left:40%;
+	margin-right: auto;
+	margin-top: 1%;
+}
+.pageBreak {
+	width:70%;
+	margin-left:2.5%;
+	color: #a7a7a7;
+}
+.jules {
+	height:20%;
+	margin-left: 20%;
+}
+
+/* night stylez */
+
+.nightBg {
+	background-color: black;
+}
+
+.nightFont {
+	color: white;
+}
+
+.nightBody {
+	background-color:  #FF00FF;
+}
+.nightHeader {
+	color: #00ffff;
+}
+.nightNav {
+	background-color: black;
+	color: #ffff4d;
+}
+.nightLi {
+	color: #00ffff;
+}
+
+.nightLi a:visited { color:#00ffff ; }
+
+/* Bootstrap for moblie */
+@media screen and (max-width: 480px) {
+	body {
+	    background-color: lightgreen;
+	    height: 2000px;
+	}
+	nav {
+		width: 100%;
+		height: 80px;
+		background-color:white;
+		color: gold;
+	}
+	nav ul li {
+		display: inline-block;
+	}
+	nav li {
+		width:30%;
+		color: gold;
+		font-size: .7em;
+		font-family: Verdana;
+		margin-top: 32px;
+		text-align: center;
+	}
+	footer ul li {
+		display: block;
+		width: 100%;
+	}
+	.mainBg .selfie {
+		height: 20%;
+		margin-left:15%;
+		margin-right: auto;
+		margin-top: .8%;
+	}
+	.jules{
+		height: 10%;
+		width: 70%;
+	}
+	.mainBg p {
+		margin-left: 10%;
+		margin-right: 10%;
+		line-height: 1.5em;
+		font-family: sans-serif;
+		font-weight: lighter;
+		font-size: 1.3em;
+	}
+	.mainBg h1 {
+		margin-left: 10%;
+		margin-right: 20%;
+		padding-top: 1%;
+		font-family: sans-serif;
+		font-weight: bolder;
+		color: #826A21;
+	}
+	.mainBg img {
+		margin-left: 10%;
+	}
+	.navButt {
+	}
+	button {
+		border: none;
+	}
+	.butt {
+		background-color: blue;
+	}
+}
+@media screen and (max-width: 900px) {
+	body {
+	    height: 2000px;
+	    background-color: white;
+	}
+	nav {
+		width: 100%;
+		height: 80px;
+		background-color:white;
+	}
+	nav ul li {
+		display: inline-block;
+			color: gold;
+	}
+	nav li {
+		width:10%;
+		color: white;
+		font-size: .7em;
+		font-family: Verdana;
+		margin-top: 32px;
+		text-align: center;
+	}
+	.whiteBg {
+		height: 100%;
+		width: 98%;
+		margin-left: 1%;
+		margin-right: 1%;
+		margin-top: 0;
+		background-color: white;
+	}
+	.mainBg .selfie {
+		height: 15%;
+		margin-left:20%;
+		margin-right: auto;
+		margin-top: .8%;
+	}
+	.navButt {
+	}
+	button {
+		border: none;
+		background-color: blue;
+	}
+	.butt {
+		margin-left: 5%;
+	}
+}
+@media screen and (max-width: 650px) {
+	.jules{
+		height: 10%;
+		width: 70%;
+	}
+	body {
+		  height: 2000px;
+	}
+	.navButt {
+
+	}
+	button {
+		border: none;
+		background-color: #213982;
+	}
+	.butt {
+		margin-left: 5%;
+	}
+		.whiteBg {
+		height: 100%;
+		width: 98%;
+		margin-left: 1%;
+		margin-right: 1%;
+		margin-top: 0;
+		background-color: white;
+	}
+}
