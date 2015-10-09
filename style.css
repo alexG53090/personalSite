@@ -3,7 +3,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: #00FF00;
-	height: 100%;
+	width: 100%;
 }
 nav {
 	width: 100%;
@@ -26,26 +26,6 @@ nav li {
 	font-weight: bolder;
 	margin-left: 20px;
 
-}
-
-.linkin {
-	color: #826A21;
-	font-size: 1em;
-	font-family: Verdana;
-	margin-top: 20px;
-	text-align: left;
-	font-weight: bolder;
-	margin-left: 20px;
-}
-
-.nightLink {
-	color: white;
-	font-size: 1em;
-	font-family: Verdana;
-	margin-top: 20px;
-	text-align: left;
-	font-weight: bolder;
-	margin-left: 20px;
 }
 
 button {
@@ -73,7 +53,7 @@ footer ul li {
 	display: inline-block;
 }
 footer li {
-	width:10%;
+	width:15%;
 	color: white;
 	font-size: 1em;
 	font-family: Verdana;
@@ -82,7 +62,9 @@ footer li {
 	font-weight: bolder;
 }
 footer {
-	margin-left: 18%;
+	margin-left: 28%;
+	margin-top: 100px;
+
 }
 li {
 	list-style: none;
@@ -94,30 +76,37 @@ a:hover { color: #FF00FF; }
 a:active { color: #0000FF; }
 /* custom styling */
 .header {
-	margin-left: 20%;
-	margin-right: 20%;
-	padding-top: 1%;
+	margin-top: 1%;
+	margin-left: 1%;
+	float: left;
+	width: 15%;
+
 	font-family: sans-serif;
-	font-weight: bolder;
+	font-weight: bold;
 	color: #826A21;
+	font-size: 5em;
+	line-height: 55px;
+	letter-spacing: -5px;
 }
 .mainBg p {
-	margin-left: 20%;
-	margin-right: 20%;
+	margin-left: 30%;
+	margin-right: 35%;
 	line-height: 1.6em;
 	font-family: sans-serif;
 	font-weight: lighter;
 	font-size: 1.5em;
+	
 }
 .mainBg {
-	height: 2000px;
 	width: 98%;
-	margin: 1%;
+	margin: auto;
 	background-color: white;
+	margin-top: 1%;
+	margin-bottom: 1%;
 }
 .mainBg .selfie {
-	height: 20%;
-	margin-left:40%;
+	height: 40%;
+	margin-left:14%;
 	margin-right: auto;
 	margin-top: 1%;
 }
@@ -127,8 +116,8 @@ a:active { color: #0000FF; }
 	color: #a7a7a7;
 }
 .jules {
-	height:20%;
-	margin-left: 20%;
+	height:50%;
+	margin-left: 14%;
 }
 
 /* night stylez */
@@ -154,14 +143,33 @@ a:active { color: #0000FF; }
 .nightLi {
 	color: #00ffff;
 }
-
 .nightLi a:visited { color:#00ffff ; }
 
+.linkin {
+	color: #826A21;
+	font-size: 1em;
+	font-family: Verdana;
+	margin-top: 20px;
+	text-align: left;
+	font-weight: bolder;
+	margin-left: 20px;
+}
+
+.nightLink {
+	color: white;
+	font-size: 1em;
+	font-family: Verdana;
+	margin-top: 20px;
+	text-align: left;
+	font-weight: bolder;
+	margin-left: 20px;
+}
+
 /* Bootstrap for moblie */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
 	body {
 	    background-color: lightgreen;
-	    height: 2000px;
+
 	}
 	nav {
 		width: 100%;
@@ -173,8 +181,8 @@ a:active { color: #0000FF; }
 		display: inline-block;
 	}
 	nav li {
-		width:30%;
-		color: gold;
+		width:20%;
+		color: yellow;
 		font-size: .7em;
 		font-family: Verdana;
 		margin-top: 32px;
@@ -203,12 +211,21 @@ a:active { color: #0000FF; }
 		font-size: 1.3em;
 	}
 	.mainBg h1 {
-		margin-left: 10%;
-		margin-right: 20%;
+
+	
+		
 		padding-top: 1%;
 		font-family: sans-serif;
 		font-weight: bolder;
 		color: #826A21;
+		letter-spacing: 0px;
+		font-size: 3em;
+		text-align: left;
+		margin-left: 10%;
+		width: 80%;
+		float: left;
+
+	
 	}
 	.mainBg img {
 		margin-left: 10%;
@@ -221,11 +238,22 @@ a:active { color: #0000FF; }
 	.butt {
 		background-color: blue;
 	}
+	.header {
+		font-size: 1.6em;
+		margin-bottom: 10px;
+	font-family: sans-serif;
+	font-weight: bolder;
+	color: #826A21;
+	text-align: center;
+	width: 100%;
+		line-height: 50px;
+	letter-spacing: 5px;
 }
-@media screen and (max-width: 900px) {
+}
+@media screen and (max-width: 1125px) {
 	body {
 	    height: 2000px;
-	    background-color: white;
+	    background-color: orange;
 	}
 	nav {
 		width: 100%;
@@ -244,21 +272,41 @@ a:active { color: #0000FF; }
 		margin-top: 32px;
 		text-align: center;
 	}
-	.whiteBg {
-		height: 100%;
+	.mainBg {
+		height: 110%;
 		width: 98%;
 		margin-left: 1%;
 		margin-right: 1%;
-		margin-top: 0;
+		margin-top: 1%;
 		background-color: white;
 	}
 	.mainBg .selfie {
 		height: 15%;
-		margin-left:20%;
+		margin-left:10%;
 		margin-right: auto;
 		margin-top: .8%;
 	}
-	.navButt {
+		.mainBg p {
+		margin-left: 10%;
+		margin-right: 10%;
+		line-height: 1.5em;
+		font-family: sans-serif;
+		font-weight: lighter;
+		font-size: 1.3em;
+	}
+	.mainBg h1 {
+		
+		padding-top: 1%;
+		font-family: sans-serif;
+		font-weight: bolder;
+		color: #826A21;
+		letter-spacing: 0px;
+		font-size: 3em;
+		text-align: left;
+		margin-left: 10%;
+		width: 80%;
+		float: left;
+
 	}
 	button {
 		border: none;
@@ -267,14 +315,29 @@ a:active { color: #0000FF; }
 	.butt {
 		margin-left: 5%;
 	}
+	.header {
+		font-size: 1.6em;
+		margin-bottom: 10px;
+	font-family: sans-serif;
+	font-weight: bolder;
+	color: #826A21;
+	text-align: center;
+	width: 100%;
+	float: right;
 }
-@media screen and (max-width: 650px) {
+	.jules{
+		height: 20%;
+		width: 70%;
+	}
+}
+@media screen and (max-width: 700px) {
 	.jules{
 		height: 10%;
 		width: 70%;
 	}
 	body {
-		  height: 2000px;
+		
+		  background-color: blue;
 	}
 	.navButt {
 
@@ -283,15 +346,28 @@ a:active { color: #0000FF; }
 		border: none;
 		background-color: #213982;
 	}
-	.butt {
-		margin-left: 5%;
-	}
-		.whiteBg {
-		height: 100%;
+
+		.mainBg {
+		height: 98%;
 		width: 98%;
 		margin-left: 1%;
 		margin-right: 1%;
-		margin-top: 0;
+		margin-top: 1%;
 		background-color: white;
 	}
+	.header {
+		font-size: 1.6em;
+		margin-bottom: 10px;
+	font-family: sans-serif;
+	font-weight: bolder;
+	color: #826A21;
+	text-align: center;
+	width: 100%;
+	float: right;
+		line-height: 50px;
+	letter-spacing: -5px;
+}
+.nightBg {
+	background-color: black;
+}
 }
