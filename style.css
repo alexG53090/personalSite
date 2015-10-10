@@ -165,6 +165,83 @@ a:active { color: #0000FF; }
 	margin-left: 20px;
 }
 
+/*** future me styling *****/
+
+#feelings {
+	margin:auto;
+	padding:auto;
+	width: 30%;
+	font-size: 2em;
+	color: #826A21;
+	font-weight: bolder;
+	font-family: Verdana;
+	border: none;
+	margin-top: 50px;
+	margin-bottom: 150px;
+	margin-left: 20%;
+	background-color:#00FF00; 
+	height: 60px;
+	vertical-align: center;
+}
+
+#feelings:hover {
+	margin:auto;
+	padding:auto;
+	width: 30%;
+	font-size: 2em;
+	color:#00ff00 ;
+	font-weight: bolder;
+	font-family: Verdana;
+	border: none;
+	margin-top: 50px;
+	margin-bottom: 150px;
+	margin-left: 20%;
+	background-color:#826A21; 
+	height: 60px;
+	vertical-align: center;
+}
+
+.cool {
+	margin:auto;
+	padding:auto;
+	width: 50%;
+	font-size: 2em;
+	color: #826A21;
+	font-weight: bolder;
+	font-family: Verdana;
+	border: none;
+	background-color:#00FF00; 
+	height: 60px;
+	vertical-align: center;
+	margin-left: 20%;
+	margin-top: 1%;
+
+}
+
+.cool:hover {
+	margin:auto;
+	padding:auto;
+	width: 50%;
+	font-size: 2em;
+	color: #00ff00;
+	font-weight: bolder;
+	font-family: Verdana;
+	border: none;
+	background-color:#826A21; 
+	height: 60px;
+	vertical-align: center;
+	margin-left: 20%;
+	margin-top: 1%;
+
+
+}
+
+.naeNae {
+	width: 45%;
+	margin: auto;
+	padding: auto;
+}
+
 /* Bootstrap for moblie */
 @media screen and (max-width: 600px) {
 	body {
